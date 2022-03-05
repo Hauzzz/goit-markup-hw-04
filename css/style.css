@@ -158,9 +158,9 @@ a{text-decoration: none;}
 
 .contacts_section-link{}
 
-.envelope ::before {
+.envelopef ::before {
     display: inline-block;
-    content: '';
+    
     background-size: contain;
     background-image: url(../images/envelope\ \(hover\).svg);
     width: 16px;
@@ -169,9 +169,9 @@ a{text-decoration: none;}
     background-repeat: no-repeat;
 }
 
-.smartphone ::before {
+.smartphonef::before {
     display: inline-block;
-    content: '';
+    
     background-size: contain;
     background-image: url(../images/smartphone.svg);
     width: 10px;
@@ -319,12 +319,22 @@ list-style: none;
     text-transform: uppercase;
 }
 
+.icon-list{
+    background-color: var(--h_b_color);
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
 
 
+}
 
-.list-item_pros ::before{
+
+.list-item_prosf ::before{
     display: block;
-    content: '';
+    
     
     height: 120px;
     left: 215px;
