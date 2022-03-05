@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     --light-grey_color: #F5F4FA;
     --slight-grey_color: #EEEEEE;
     --h_b_color: #ECECEC;
+    --gradient_grey-color: rgba(47, 48, 58, 0.4);
   }
 
 
@@ -167,7 +168,7 @@ a{text-decoration: none;}
 .maintext {
     color: var(--white-color);
     
-    background-color: var(--grey_color_s);
+
     
 
     font-size: 44px;
@@ -191,7 +192,19 @@ a{text-decoration: none;}
 
 }
 
-
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to top left,
+        var(--gradient_grey-color),
+        var(--gradient_grey-color)),url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 .container{
@@ -250,7 +263,7 @@ a{text-decoration: none;}
 .pros_text {
 display: flex;
 justify-content: space-between;
-
+list-style: none;
 
 
 }
@@ -280,6 +293,114 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+
+
+
+.list-item_pros ::before{
+    display: block;
+    content: '';
+    
+    height: 120px;
+    left: 215px;
+    top: 774px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 70px;
+   background-position: center;
+    border-radius: 4px;
+    
+    background-color: #ECECEC;
+    margin-bottom: 30px;
+}
+
+.list-item_pros:nth-child(1) ::before {
+    background-image: url(../images/antenna\ 1.svg);
+}
+
+.list-item_pros:nth-child(2) ::before {
+    background-image: url(../images/clock\ 1\ \(1\).svg);
+}
+
+.list-item_pros:nth-child(3) ::before {
+    background-image: url(../images/diagram\ 1.svg);
+}
+
+.list-item_pros:nth-child(4) ::before {
+    background-image: url(../images/astronaut\ 1.svg);
+}
+
+.envelope ::before {
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/envelope\ \(hover\).svg);
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.smartphone::before {
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/smartphone.svg);
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.cards-t:nth-child(1)::after{
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/instagram\ 2.svg);
+
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.cards-t:nth-child(2)::after{
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/twitter\ 1.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+   justify-content: space-between;
+}
+
+.cards-t:nth-child(3)::after{
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/facebook\ 1.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.cards-t:nth-child(4)::after{
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/linkedin\ 1.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
 .mainpool_text {
     display: flex;
     text-align: center;
@@ -294,6 +415,32 @@ justify-content: space-between;
     margin-bottom: 50px;
    
 }
+
+.clientstext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 76px;
+}
+
+.clientstext::after {
+    display: block;
+    content: '';
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    Width: 170px;
+    Height: 92px;
+    margin-bottom: 112px;
+    margin-top: 50px;
+
+}
+
+
 
 .main_pool {
     padding-top: 0;
@@ -342,9 +489,7 @@ justify-content: space-between;
 
 }
 
-.regular_customers {
-    width: 1200px;
-}
+
 
 
 
@@ -462,10 +607,7 @@ justify-content: space-between;
 
 }
 
- .pros_text {
-    list-style: none;
-    
- }
+
 
  .footer_list {
     list-style: none;
