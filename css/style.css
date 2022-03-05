@@ -155,6 +155,31 @@ a{text-decoration: none;}
     
    
 }
+
+.contacts_section-link{}
+
+.envelope ::before {
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/envelope\ \(hover\).svg);
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.smartphone ::before {
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    background-image: url(../images/smartphone.svg);
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
 .contacts_section + .contacts_section {
     margin-left: 50px;
 }
@@ -330,27 +355,7 @@ list-style: none;
     background-image: url(../images/astronaut\ 1.svg);
 }
 
-.envelope ::before {
-    display: inline-block;
-    content: '';
-    background-size: contain;
-    background-image: url(../images/envelope\ \(hover\).svg);
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-}
 
-.smartphone::before {
-    display: inline-block;
-    content: '';
-    background-size: contain;
-    background-image: url(../images/smartphone.svg);
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-}
 
 .cards-t:nth-child(1)::after{
     display: inline-block;
@@ -427,7 +432,13 @@ list-style: none;
     margin-top: 76px;
 }
 
-.clientstext::after {
+.reg-clients {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.reg-clients::after {
     display: block;
     content: '';
     border: 1px solid #AFB1B8;
@@ -532,6 +543,18 @@ list-style: none;
     display: block;
 }
 
+.connect {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+
 
 
 .portfolio_button {
@@ -612,6 +635,17 @@ list-style: none;
  .footer_list {
     list-style: none;
  }
+
+ .eclipse {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(255, 255, 255, 0.1);      
+ }
+
+
 
  .icon {
     display: inline-block;
