@@ -156,29 +156,7 @@ a{text-decoration: none;}
    
 }
 
-.contacts_section-link{}
 
-.envelopef ::before {
-    display: inline-block;
-    
-    background-size: contain;
-    background-image: url(../images/envelope\ \(hover\).svg);
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-}
-
-.smartphonef::before {
-    display: inline-block;
-    
-    background-size: contain;
-    background-image: url(../images/smartphone.svg);
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-}
 
 .contacts_section + .contacts_section {
     margin-left: 50px;
@@ -332,38 +310,6 @@ list-style: none;
 }
 
 
-.list-item_prosf ::before{
-    display: block;
-    
-    
-    height: 120px;
-    left: 215px;
-    top: 774px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 70px;
-   background-position: center;
-    border-radius: 4px;
-    
-    background-color: #ECECEC;
-    margin-bottom: 30px;
-}
-
-.list-item_pros:nth-child(1) ::before {
-    background-image: url(../images/antenna\ 1.svg);
-}
-
-.list-item_pros:nth-child(2) ::before {
-    background-image: url(../images/clock\ 1\ \(1\).svg);
-}
-
-.list-item_pros:nth-child(3) ::before {
-    background-image: url(../images/diagram\ 1.svg);
-}
-
-.list-item_pros:nth-child(4) ::before {
-    background-image: url(../images/astronaut\ 1.svg);
-}
 
 
 
