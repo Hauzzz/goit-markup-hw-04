@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contacts_section_header {
     display: flex;
-    margin-left: 331px;
+    margin-left: auto;
 }
 ul {
     margin: 0;
