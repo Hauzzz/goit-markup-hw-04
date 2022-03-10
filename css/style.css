@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
     
 }
+
 .contacts_section_header {
     display: flex;
     margin-left: auto;
@@ -466,7 +467,11 @@ list-style: none;
     color: var(--white-color);
 }
 
-
+.teamsvg-f {
+    fill: var(--white-color);
+    border-radius: 50%;
+    border: var(--grey-color);
+}
 
 
 .portfolio_button {
@@ -571,12 +576,13 @@ list-style: none;
   .join {
     color: var(--white-color);
       
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        margin-left: 470px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
 
   .icons_team_stuff {
