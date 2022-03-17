@@ -12,14 +12,21 @@ body {
 }
 
 .stuffsvg{
-    width: 70px;
-    height: 70px;
+ display: flexbox;
+
 }
 
 .teamsvg {
     width: 20px;
     height: 20px;
+    display: flexbox;
     
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 p{
@@ -323,7 +330,9 @@ list-style: none;
 
 
 
-
+.mainpool{
+    padding-top: 0;
+}
 
 
 
@@ -351,6 +360,12 @@ list-style: none;
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 76px;
+}
+
+.clienticon {
+    display: flexbox;
+    width: 106px;
+    height: 60px;
 }
 
 
@@ -471,8 +486,17 @@ list-style: none;
     fill: var(--white-color);
     border-radius: 50%;
     border: var(--grey-color);
+    display: flexbox;
+    width: 20px;
+    height: 20px;
 }
 
+.footer-icons {
+    display: flexbox;
+    align-items: baseline;
+    
+
+}
 
 .portfolio_button {
     width: 128px;
@@ -504,14 +528,13 @@ list-style: none;
     justify-content: center;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 94px;
 
 }
 .btn-pheadline{
     display: none;
 }
 
-.portfolio_button :hover, .portfolio_button :focus {
+.buttons_portfolio :hover, .buttons_portfolio :focus {
     background-color: var(--blue-color);
     color: var(--white-color);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
@@ -525,12 +548,10 @@ list-style: none;
 
 .list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; 
     flex-wrap: wrap;
-    list-style: none;
-    width: 1200px;
-    padding-bottom: 94px;
+    flex-basis: 1200px;
+   
     
     
     
@@ -573,6 +594,24 @@ list-style: none;
     stroke: currentColor;
     fill: currentColor;
   }
+
+  .icon-envelope{
+      fill: var(--grey-color);
+      margin-left: 10px;
+  }
+  .icon-envelope :focus, .icon-envelope:hover {
+      fill: var(--blue-color);
+  }
+
+  .icon-smartphone-1 {
+      fill: var(--grey-color);
+      margin-left: 10px;
+  }
+
+  .icon-smartphone-1 :focus, .icon-smartphone-1 :hover {
+      fill: var(--blue-color);
+  }
+
   .join {
     color: var(--white-color);
       
@@ -606,10 +645,12 @@ list-style: none;
       box-shadow: none;
   }
 
-  .portfolio_cards :focus, .portfolio_cards :hover {
+  .p-cards :focus, .p-cards :hover {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
-
+  .p-cards {
+      display: block;
+  }
 
 
 
