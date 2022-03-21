@@ -6,20 +6,23 @@ body {
 
     font-size: 14px;
     letter-spacing: 0.02em;
+    font-style: normal;
     
     
 
 }
 
 .stuffsvg{
- display: flexbox;
+ height: 70px;
+ width: 70px;
 
 }
 
 .teamsvg {
     width: 20px;
     height: 20px;
-    display: flexbox;
+    display: flex;
+    fill: var(--svg-grey);
     
 }
 
@@ -58,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     --slight-grey_color: #EEEEEE;
     --h_b_color: #ECECEC;
     --gradient_grey-color: rgba(47, 48, 58, 0.4);
+    --svg-grey: rgba(175, 177, 184, 1);
   }
 
 
@@ -78,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 .head_line  {
     
     display: flex;
-    align-items: center;
+    
     
     
 }
@@ -108,12 +112,13 @@ ul {
 
 }
 
-.word_web {
+.web-word {
     color: var(--blue-color);
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
     letter-spacing: 0.03em
+    
     
 }
 
@@ -131,6 +136,8 @@ ul {
     
 }
 
+
+
 .nav {
     color: var(--black-color);
     
@@ -141,31 +148,30 @@ ul {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
     
 }
+
+
+
 .nav + .nav {
 margin-left: 50px;
 }
 a{text-decoration: none;}
 .contacts_section {
     color: var(--grey-color);
-    justify-content: space-between;
     display: flex;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
-    margin-left: auto;
-    text-align: right;
-    float: right;
-    list-style: none;
+    margin-right: auto;
     text-decoration: none;
-    letter-spacing: 0.02em
-    
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
     
     
     
@@ -284,10 +290,14 @@ a{text-decoration: none;}
 
 .pros_text {
 display: flex;
-justify-content: space-between;
 list-style: none;
+margin: -15px;
 
 
+}
+
+.list-item_pros{
+    margin: 15px;
 }
 
 .maintext_first {
@@ -316,12 +326,19 @@ list-style: none;
     text-transform: uppercase;
 }
 
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .icon-list{
     background-color: var(--h_b_color);
     border-radius: 4px;
     height: 120px;
+    width: 100%;
     margin-bottom: 30px;
     display: flex;
+    align-items: center;
     justify-content: center;
     
 
@@ -373,21 +390,26 @@ list-style: none;
 .contactsicon-envelope {
     width: 16px;
     height: 12px;
+    margin-right: 10px;
 }
 .contactsicon-phone {
     width: 10px;
     height: 16px;
+    margin-right: 10px;
 }
 
 
 
 .main_pool {
-    padding-top: 0;
+    padding-bottom: 94px;
 }
 .imgstuff {
     display: flex;
-    justify-content: space-between;
+    margin: -15px;
    
+}
+.stuffimg {
+    margin: 15px;
 }
 
 .our_team {
@@ -417,8 +439,14 @@ list-style: none;
 
 }
 
+.icons-ts {
+    display: flex;
+}
+
 .team {
     background-color: var(--light-grey_color);
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .reg_cust {
@@ -464,12 +492,7 @@ list-style: none;
 .contacts_section_footer:hover,.contacts_section2:focus {
     color: var(--blue-color);
 }
-.nav_footer {
-    color: var(--black-color);
-    text-decoration: none;
-    margin-bottom: 20px;
-    display: block;
-}
+
 
 .connect {
     font-family: Roboto;
@@ -682,14 +705,13 @@ list-style: none;
 
 
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 .cards-t {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
     text-align: center;
 }
 
