@@ -119,7 +119,8 @@ ul {
     font-size: 26px;
     line-height: 2em;
     letter-spacing: 0.03em;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 
     
     
