@@ -149,7 +149,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1em;
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -167,7 +167,7 @@ a{text-decoration: none;}
     color: var(--grey-color);
     display: flex;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1em;
     letter-spacing: 0.02em;
     margin-right: auto;
     text-decoration: none;
@@ -209,7 +209,7 @@ a{text-decoration: none;}
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 2em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     width: 696px;
@@ -257,7 +257,7 @@ a{text-decoration: none;}
     font-weight: 400;
     font-family: Roboto;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2em;
     color: var(--white-color);
     height: 50px;
     left: 700px;
@@ -310,7 +310,7 @@ margin: -15px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.03em;
     width: 270px;
     text-align: left;
@@ -319,7 +319,7 @@ margin: -15px;
 .capitaltext_pros{
     text-align: left;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -365,7 +365,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3em;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -377,7 +377,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3em;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -453,7 +453,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 3em;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -484,6 +484,17 @@ margin: -15px;
     fill: var(--svg-grey);
     align-items: center;
 }
+
+.ts-icons :hover, .ts-icons :focus {
+    border-radius: 100%;
+    border-width: 44px;
+    border-color: var(--blue-color)
+    ;
+    fill: var(--white-color);
+}
+
+
+
 
 .team {
     background-color: var(--light-grey_color);
@@ -526,7 +537,7 @@ margin: -15px;
 .word_studiof {
     color: var(--white-color);
     font-size: 26px;
-    line-height: 2em;
+    line-height: 1em;
     
 }
 
@@ -564,7 +575,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
@@ -573,7 +584,8 @@ margin: -15px;
 .teamsvg-f {
     fill: var(--white-color);
     border-radius: 50%;
-    border: var(--grey-color);
+    border-width: 44px;
+    border-color: var(--grey-color);
     display: flexbox;
     width: 20px;
     height: 20px;
@@ -611,7 +623,7 @@ margin: -15px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 2em;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -727,7 +739,7 @@ margin: -15px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
@@ -775,7 +787,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2.5em;
     letter-spacing: 0.06em;
 }
 
@@ -784,7 +796,7 @@ margin: -15px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 2em;
     letter-spacing: 0.03em;
 }
 
