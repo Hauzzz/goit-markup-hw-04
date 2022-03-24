@@ -399,6 +399,7 @@ margin: -15px;
     width: 106px;
     height: 60px;
     fill: var(--svg-grey);
+    margin: auto;
 }
 
 
