@@ -118,7 +118,9 @@ ul {
     font-family: Raleway;
     font-size: 26px;
     line-height: 2em;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    margin: auto;
+
     
     
 }
@@ -187,6 +189,8 @@ a{text-decoration: none;}
 .contacts_section + .contacts_section {
     margin-left: 50px;
 }
+
+
 
 .contacts_section:hover,.contacts_section:focus {
     color: var(--blue-color);
@@ -403,12 +407,24 @@ margin: -15px;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: var(--grey-color);
 }
 .contactsicon-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    fill: var(--grey-color);
 }
+
+.contactsicon-envelope :hover .contactsicon-envelope :focus {
+    fill: var(--blue-color);
+}
+
+.contactsicon-phone :hover .contactsicon-envelope :focus {
+    fill: var(--blue-color);
+}
+
+
 
 
 
