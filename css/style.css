@@ -480,6 +480,7 @@ margin: -15px;
     display: flex;
     text-align: center;
     margin-right: 10px;
+    fill: var(--svg-grey);
 }
 
 .team {
