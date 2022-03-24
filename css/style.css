@@ -408,20 +408,24 @@ margin: -15px;
     height: 12px;
     margin-right: 10px;
     fill: var(--grey-color);
+    
 }
 .contactsicon-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: var(--grey-color);
+    
 }
 
 .contactsicon-envelope :hover .contactsicon-envelope :focus {
     fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 .contactsicon-phone :hover .contactsicon-envelope :focus {
     fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 
