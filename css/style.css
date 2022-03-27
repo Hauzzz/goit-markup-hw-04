@@ -434,8 +434,7 @@ margin: -15px;
 .clienticon {
     width: 106px;
     height: 60px;
-    fill: var(--svg-grey);
-    margin: auto;
+    fill: currentColor;
 }
 
 
@@ -564,14 +563,14 @@ margin: -15px;
     border-radius: 4px;
     align-items: center;
     display: flex;
-    margin: 15px;
     cursor: pointer;
     width: 170px;
     height: 92px;
+    justify-content: center;
+    fill: var(--svg-grey);
 }
 
 .reg-clients:hover .reg-clients:focus {
-    fill: var(--blue-color);
     color: var(--blue-color);
     border-color: var(--blue-color);
 }
