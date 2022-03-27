@@ -523,6 +523,7 @@ margin: -15px;
 .ts-icons {
     width: 44px;
     height: 44px;
+    fill: var(--svg-grey);
 }
 
 .ats-icons {
