@@ -22,7 +22,7 @@ body {
     width: 20px;
     height: 20px;
     display: flex;
-    fill: var(--svg-grey);
+    fill: currentColor;
     
 }
 
@@ -429,6 +429,7 @@ margin: -15px;
     display: flex;
     margin: -15px;
     text-align: center;
+    justify-content: center;
 }
 
 .clienticon {
@@ -570,6 +571,8 @@ margin: -15px;
     height: 92px;
     justify-content: center;
     fill: var(--svg-grey);
+
+    
 }
 
 .reg-clients:hover .reg-clients:focus {
@@ -579,6 +582,7 @@ margin: -15px;
 
 .clientssvg-class {
     margin: 15px;
+    fill: var(--svg-grey);
 }
 
 
