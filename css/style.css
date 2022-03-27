@@ -524,6 +524,7 @@ margin: -15px;
     width: 44px;
     height: 44px;
     fill: var(--svg-grey);
+    margin-right: 10px;
 }
 
 .ats-icons {
@@ -536,7 +537,7 @@ margin: -15px;
     fill: var(--svg-grey);
 }
 
-.ats-icons:hover,.ats-icons :focus {
+.ats-icons:hover,.ats-icons:focus {
 
     color: var(--white-color);
     background-color: var(--blue-color);
