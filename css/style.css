@@ -658,6 +658,8 @@ margin: -15px;
     height: 100%;
     background-color: var(--footer-bg);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-icons {
