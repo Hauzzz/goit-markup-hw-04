@@ -523,6 +523,7 @@ margin: -15px;
     margin-left: 32px;
     margin-right: 32px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .ts-icons {
