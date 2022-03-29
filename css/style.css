@@ -522,23 +522,24 @@ margin: -15px;
     justify-content: center;
     margin-left: 32px;
     margin-right: 32px;
+    justify-content: space-between;
 }
 
 .ts-icons {
     width: 44px;
     height: 44px;
-    fill: var(--svg-grey);
-    margin-right: 10px;
+    
 }
 
 .ats-icons {
     width: 100%;
     height: 100%;
+    fill: var(--svg-grey);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--svg-grey);
+    
 }
 
 .ats-icons:hover,.ats-icons:focus {
@@ -580,6 +581,7 @@ margin: -15px;
 
 .reg-clients:hover, .reg-clients:focus {
     color: var(--blue-color);
+    fill: var(--blue-color);
     border-color: var(--blue-color);
 }
 
@@ -644,9 +646,15 @@ margin: -15px;
     fill: var(--white-color);
     width: 44px;
     height: 44px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.afooter-icons {
     border-radius: 50%;
     width: 100%;
-    height: 44px;
+    height: 100%;
     background-color: var(--footer-bg);
 }
 
@@ -675,7 +683,7 @@ margin: -15px;
 
 
 
-.teamsvg-f:hover, .teamsvg-f:focus {
+.afooter-icons:hover, .afooter-icons:focus {
     background-color: var(--blue-color);
     
 }
