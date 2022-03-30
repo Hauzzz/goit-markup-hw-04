@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 .main_container {
     display: flex;
     text-align: center;
@@ -263,16 +264,17 @@ a{text-decoration: none;}
 }
 
 .overlay {
-    max-width: 1600px;
-    height: 600px;
-    background-image: linear-gradient(
+        max-width: 1600px;
+        height: 600px;
+        background-image: linear-gradient(
         to top left,
         var(--gradient_grey-color),
         var(--gradient_grey-color)),url(../images/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+
 }
 
 
