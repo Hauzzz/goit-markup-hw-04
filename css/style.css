@@ -37,7 +37,7 @@ p{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 3;
+    line-height: 2;
     color: var(--grey-color);
 
     letter-spacing: 0.03em;
@@ -131,7 +131,7 @@ ul {
     color: var(--black-color);
     font-family: Raleway;
     font-size: 26px;
-    line-height: 2;
+    line-height: 1.2;
     letter-spacing: 0.03em
 }
 
@@ -159,7 +159,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -401,7 +401,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 3;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -413,7 +413,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 3;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -489,7 +489,7 @@ margin: -15px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 3;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
@@ -598,7 +598,7 @@ margin: -15px;
 .word_studiof {
     color: var(--white-color);
     font-size: 26px;
-    line-height: 1;
+    line-height: 1.2;
     
 }
 
@@ -705,7 +705,7 @@ margin: -15px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -822,7 +822,7 @@ margin: -15px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
